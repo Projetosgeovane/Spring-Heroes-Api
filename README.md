@@ -2,17 +2,17 @@
 
 ## Ferramentas utilizadas
 
-  *Java 8 ou superior
-  *Spring webflux 
-  *Dynamodb
-  *Spring batch
-  *Junit
-  *Spring clould
-  *Reactor
-  *Spring mvc
-  *Sl4j
-  *Spring data jpa
-  *Spring security
+  -Java 8 ou superior
+  -Spring webflux 
+  -Dynamodb
+  -Spring batch
+  -Junit
+  -Spring clould
+  -Reactor
+  -Spring mvc
+  -Sl4j
+  -Spring data jpa
+  -Spring security
 
 
 
@@ -20,7 +20,8 @@
 
 ### Executar o projeto
 Primeiro deve-se entrar na pasta em que o arquivo jar do Dyanomodb está baixo, após isto para iniciar o Dynamodb executar o comando: 
-java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb. Depois precisa somente subir o spring boot (o mesmo exibirá a mensagem "Parabéns, a aplicação funcionou com sucesso !!!")
+java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb. 
+No último passo precisa somente subir o spring boot (o mesmo exibirá a mensagem "Parabéns, a aplicação funcionou com sucesso !!!")
 
 para listar as tabelas criadas: aws dynamodb list-tables --endpoint-url http://localhost:8000
 
