@@ -16,7 +16,7 @@
 
 
 
-## O projeto tem como prosposta principal de gerenciar desde o cadastro de heróis até a exclusão de heróis
+## O projeto tem como proposta principal de gerenciar desde o cadastro de heróis até a exclusão de heróis
 ### Passos para executar o projeto
 
 Primeiro deve-se entrar na pasta em que o arquivo jar do Dyanomodb está baixo, após isto para iniciar o Dynamodb executar o comando: 
