@@ -2,7 +2,7 @@
 
 ## Ferramentas utilizadas
 
- -Java 8 ou superior
+*Java 8 ou superior
   -Spring webflux 
   -Dynamodb
   -Spring batch
